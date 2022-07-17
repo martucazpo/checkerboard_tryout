@@ -1,0 +1,24 @@
+.checkers-wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.checkers-wrapper .checkers-board {
+  background-color: #fff;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.checkers-wrapper .checker-field {
+  width: 12.5%;
+  height: 12.5%;
+}
+.checkers-wrapper .checker-field-dark {
+  background-color: #345;
+}
+.checkers-wrapper .checker-field-light {
+  background-color: #eef;
+}/*# sourceMappingURL=checkers.css.map */
